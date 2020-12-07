@@ -22,30 +22,9 @@
         ]
     },
     "objects": {
-        "general": {
-            "displayName": "General",
-            "displayNameKey": "formattingGeneral",
-            "properties": {
-                "filter": {
-                    "type": {
-                        "filter": true
-                    }
-                }
-            }
-        },
         "myproperties": {
             "displayName": "自定义属性",
             "properties": {
-                "defaultColor": {
-                    "displayName": "Default color",
-                    "type": {
-                        "fill": {
-                            "solid": {
-                                "color": true
-                            }
-                        }
-                    }
-                },
                 "theme": {
                     "displayName": "主题颜色",
                     "type": {
@@ -116,36 +95,6 @@
                                 "value": "svg"
                             }
                         ]
-                    }
-                },
-                "showAllDataPoints": {
-                    "displayName": "Show all",
-                    "type": {
-                        "bool": true
-                    }
-                },
-                "fill": {
-                    "displayName": "Fill",
-                    "type": {
-                        "fill": {
-                            "solid": {
-                                "color": true
-                            }
-                        }
-                    }
-                },
-                "fillRule": {
-                    "displayName": "Color saturation",
-                    "type": {
-                        "fill": {}
-                    }
-                },
-                "fontSize": {
-                    "displayName": "Text Size",
-                    "type": {
-                        "formatting": {
-                            "fontSize": true
-                        }
                     }
                 }
             }
