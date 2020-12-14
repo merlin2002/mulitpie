@@ -82,6 +82,69 @@
                         "bool": true
                     }
                 },
+                "lableposition": {
+                    "displayName": "标签位置",
+                    "type": {
+                        "enumeration": [
+                            {
+                                "displayName": "Center",
+                                "value": "center"
+                            },
+                            {
+                                "displayName": "Top",
+                                "value": "top"
+                            },
+                            {
+                                "displayName": "Left",
+                                "value": "left"
+                            },
+                            {
+                                "displayName": "Right",
+                                "value": "right "
+                            },
+                            {
+                                "displayName": "Bottom",
+                                "value": "bottom"
+                            },
+                            {
+                                "displayName": "Inside",
+                                "value": "inside"
+                            },
+                            {
+                                "displayName": "InsideLeft",
+                                "value": "insideLeft"
+                            },
+                            {
+                                "displayName": "InsideRight",
+                                "value": "insideRight"
+                            },
+                            {
+                                "displayName": "InsideTop",
+                                "value": "insideTop"
+                            },
+                            {
+                                "displayName": "InsideBottom",
+                                "value": "insideBottom"
+                            },
+                            {
+                                "displayName": "InsideTopLeft",
+                                "value": "insideTopLeft"
+                            },
+                            {
+                                "displayName": "InsideBottomLeft",
+                                "value": "insideBottomLeft"
+                            },
+                            {
+                                "displayName": "InsideTopRight",
+                                "value": "insideTopRight"
+                            },
+                            {
+                                "displayName": "InsideBottomRight",
+                                "value": "insideBottomRight"
+                            }
+                        ]
+                    }
+                },
                 "renderer": {
                     "displayName": "渲染方式",
                     "type": {

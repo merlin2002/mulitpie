@@ -125,7 +125,7 @@ export class Visual implements IVisual {
         // const dataViewcategorical:DataViewCategorical=dataView.categorical;
         let showlegend:boolean=this.settings.myproperties.showlegend;
         let showlable:boolean=this.settings.myproperties.showlable;
-
+        let lableposition:string=this.settings.myproperties.lableposition;
         try {
             myChart.setOption(
                 {
@@ -165,12 +165,13 @@ export class Visual implements IVisual {
                                             label: {
                                                 show: showlable,
                                                 formatter: '{d}%',
-                                                position: 'inside'
+                                                position: lableposition
+                                                // position: 'center'
                                             },
                                             emphasis: {
                                                 label: {
-                                                    show: showlable,
-                                                    fontSize: '30',
+                                                    show: true,
+                                                    fontSize: '15',
                                                     fontWeight: 'bold'
                                                 }
                                             },

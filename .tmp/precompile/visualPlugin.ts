@@ -7,7 +7,7 @@ var powerbi: any = window[powerbiKey];
 
 var mulitpie91275C762EF847969B236C51745DEF81: IVisualPlugin = {
     name: 'mulitpie91275C762EF847969B236C51745DEF81',
-    displayName: 'mulitpie',
+    displayName: '多嵌套饼图',
     class: 'Visual',
     apiVersion: '2.6.0',
     create: (options: VisualConstructorOptions) => {

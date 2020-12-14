@@ -8,7 +8,7 @@
             "file": "resources/mulitpie91275C762EF847969B236C51745DEF81.pbiviz.json"
         }
     ],
-    "visual": {"name":"mulitpie","displayName":"mulitpie","guid":"mulitpie91275C762EF847969B236C51745DEF81","visualClassName":"Visual","version":"1.0.0","description":"嵌套饼图","supportUrl":"https://community.powerbi.com","gitHubUrl":""},
+    "visual": {"name":"mulitpie","displayName":"多嵌套饼图","guid":"mulitpie91275C762EF847969B236C51745DEF81","visualClassName":"Visual","version":"1.0.0","description":"多嵌套饼图","supportUrl":"https://community.powerbi.com","gitHubUrl":""},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"
